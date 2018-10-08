@@ -1,0 +1,12 @@
+<fieldset>
+      <legend><b>Feedback</b></legend>
+      <form action="../utils/submit.php/?post=POST-HERE" method="post">
+        Email: <input name="email" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"><br>
+        Feedback: 
+        <textarea name="feedback" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea> <input name="submit"
+        type="submit" value="Submit">
+      </form>
+    </fieldset>
+  </article>
+</body>
+</html>

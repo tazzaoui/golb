@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+       dt { margin: 0.2em 0; }
+       .float-right { float: right; }
+       barter { padding-top: 2em; }
+  </style>
+  <script src="../utils/obfuscate.js">
+  </script>
+  <title>Taha Azzaoui :: Blog</title>
+</head>
+<body>
+  <div class="float-right">
+    <a href="https://tahaazzaoui.com">Home</a> :: <a href="https://tahaazzaoui.com/blog">Blog</a> :: <a href=
+    "https://git.tahaazzaoui.com">Git</a> :: 
+    <script language="JavaScript">
+
+
+    obfuscate("Email")
+    </script> :: <a href="https://tahaazzaoui.com/rss.xml">RSS</a>
+  </div>
+  <header>
+    <h1>Taha Azzaoui :: Blog Archive</h1>
+    <hr>
+  </header>
+  <h2>2018</h2>
