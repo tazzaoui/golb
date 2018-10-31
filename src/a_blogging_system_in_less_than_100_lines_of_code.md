@@ -1,7 +1,7 @@
 ---
 Author: Taha Azzaoui
 Date: Sun Oct 7 20:48:58 EDT 2018
-Title: A Blogging System in \< 100 lines of code 
+Title: A Blogging System in less than 100 lines of code 
 ---
 
 ### Background

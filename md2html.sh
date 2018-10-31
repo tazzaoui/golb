@@ -8,7 +8,7 @@ brief_date="$(date --date="$blog_date" +%m.%d.%y)"
 blog_page=$(echo "$1" | cut -d'.' -f1).html
 blog_page_tmp=$(echo "$1" | cut -d'.' -f1)-temp.html
 
-pandoc -s -t html5 --quiet src/$1 -o $blog_page_tmp
+pandoc --ascii -t html5 --quiet src/$1 -o $blog_page_tmp
 cat utils/header $blog_page_tmp utils/footer > $blog_page
 
 # Replace the title

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Taha Azzaoui - TITLE-HERE</title>
   <link href="../utils/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width"/>
   <script src="../utils/obfuscate.js">
   </script>
   <script type="text/x-mathjax-config">
