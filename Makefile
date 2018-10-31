@@ -11,16 +11,20 @@ index:
 
 upload:
 	scp html/rss.xml taha@tahaazzaoui.com:/var/www/html
-	scp -r $(BLOG_DIR)/*.html taha@tahaazzaoui.com:/var/www/html/blog
+	scp -r $(BLOG_DIR)/* taha@tahaazzaoui.com:/var/www/html/blog
 
 rss:
 	$(shell cat utils/header-rss > html/rss.xml)
 
 clean:
-	rm -f index.md html/*.html
+	rm -f index.md html/*
 
-docs: setting_up_tor_on_arch_linux the_cloud_is_someone_elses_computer a_blogging_system_in_less_than_100_lines_of_code matrix_multiply indexer snells_law rc_circuits_odes uniform_magnetic_fields electric_forces_and_fields web_crawler search_engine integral_roots runga_kutta euler_ode gradient_descent binary_bomb_4 binary_bomb_3 binary_bomb_2 binary_bomb_1 binary_bomb_0 
+docs: pairing_and_using_bluetooth_devices_on_arch_linux setting_up_tor_on_arch_linux the_cloud_is_someone_elses_computer a_blogging_system_in_less_than_100_lines_of_code matrix_multiply indexer snells_law rc_circuits_odes uniform_magnetic_fields electric_forces_and_fields web_crawler search_engine integral_roots runga_kutta euler_ode gradient_descent binary_bomb_4 binary_bomb_3 binary_bomb_2 binary_bomb_1 binary_bomb_0 
 
+
+pairing_and_using_bluetooth_devices_on_arch_linux: src/pairing_and_using_bluetooth_devices_on_arch_linux.md
+	./md2html.sh pairing_and_using_bluetooth_devices_on_arch_linux.md
+	mv pairing_and_using_bluetooth_devices_on_arch_linux.html $(BLOG_DIR)
 
 setting_up_tor_on_arch_linux: src/setting_up_tor_on_arch_linux.md
 	./md2html.sh setting_up_tor_on_arch_linux.md
