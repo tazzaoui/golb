@@ -4,7 +4,7 @@ Date: Thu Dec 27 13:46:38 EST 2018
 Title: Gentoo Install Notes
 ---
 
-My notes in installing Gentoo with an encrypted disk using LUKS
+My notes on installing Gentoo with disk encryption using LUKS
 
 1. Prepare the disks 
     * `root@localhost # parted -a optimal /dev/sdn`
