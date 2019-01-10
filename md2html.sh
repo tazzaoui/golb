@@ -8,7 +8,7 @@ brief_date="$(date --date="$blog_date" +%m.%d.%y)"
 blog_page=$(echo "$1" | cut -d'.' -f1).html
 blog_page_tmp=$(echo "$1" | cut -d'.' -f1)-temp.html
 
-pandoc --ascii -t html5 --quiet src/$1 -o $blog_page_tmp
+pandoc --ascii -t html5 src/$1 -o $blog_page_tmp
 cat utils/header $blog_page_tmp utils/footer > $blog_page
 
 # Replace the title
@@ -24,7 +24,7 @@ sed -i -e 's/HTML-FILE-HERE/'"$blog_page"'/g' $blog_page
 sed -i -e 's/POST-HERE/'"$escaped_title"'/g' $blog_page
 
 # Clean the html
-tidy -q --mute MISSING_ATTRIBUTE -i -m -w 120 -ashtml -utf8 --tidy-mark no $blog_page
+tidy -q -i -m -w 120 -ashtml -utf8 --tidy-mark no $blog_page
 
 # If the title is GD, then we've reached the end of the 2017 posts
 if [ "$blog_title" == "Gradient Descent " ];then
