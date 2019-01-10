@@ -23,9 +23,10 @@
 2017
 ----
 
--   \[12.20.17\] [Gradient Descent ](gradient_descent.html)
+-   \[12.29.17\] [Plato and Justice as Human Excellence](plato_and_justice_as_human_excellence.html)
 -   \[12.27.17\] [The Binary Bomb Project: Part 4 ](binary_bomb_4.html)
 -   \[12.26.17\] [The Binary Bomb Project: Part 3 ](binary_bomb_3.html)
 -   \[12.25.17\] [The Binary Bomb Project: Part 2 ](binary_bomb_2.html)
 -   \[12.24.17\] [The Binary Bomb Project: Part 1 ](binary_bomb_1.html)
 -   \[12.20.17\] [The Binary Bomb Project: Part 0 ](binary_bomb_0.html)
+-   \[12.20.17\] [Gradient Descent ](gradient_descent.html)
