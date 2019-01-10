@@ -26,11 +26,12 @@ sed -i -e 's/POST-HERE/'"$escaped_title"'/g' $blog_page
 # Clean the html
 tidy -q -i -m -w 120 -ashtml -utf8 --tidy-mark no $blog_page
 
-# If the title is GD, then we've reached the end of the 2017 posts
-if [ "$blog_title" == "Gradient Descent " ];then
+# Last post of 2017
+if [ "$blog_title" == "Plato and Justice as Human Excellence" ];then
     echo -e "\n2017" >> index.md
     echo -e "----\n" >> index.md
-# Otherwise, Gentoo Install Notes is the last post of 2018
+
+# Last post of 2018
 elif [ "$blog_title" == "Gentoo Install Notes" ];then
     echo -e "\n2018" >> index.md
     echo -e "----\n" >> index.md
