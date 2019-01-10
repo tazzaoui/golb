@@ -22,3 +22,4 @@ setting_up_tor_on_arch_linux.md
 pairing_and_using_bluetooth_devices_on_arch_linux.md
 gentoo_install_notes.md
 my_travels.md
+replacing_my_thinkpad_boot_logo_with_memes.md

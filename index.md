@@ -1,3 +1,4 @@
+-   \[01.10.19\] [Replacing my Thinkpad's Boot Logo With Memes](replacing_my_thinkpad_boot_logo_with_memes.html)
 -   \[01.09.19\] [My Travels](my_travels.html)
 
 2018
