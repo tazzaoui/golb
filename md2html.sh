@@ -30,6 +30,10 @@ tidy -q -i -m -w 120 -ashtml -utf8 --tidy-mark no $blog_page
 if [ "$blog_title" == "Gradient Descent " ];then
     echo -e "\n2017" >> index.md
     echo -e "----\n" >> index.md
+# Otherwise, Gentoo Install Notes is the last post of 2018
+elif [ "$blog_title" == "Gentoo Install Notes" ];then
+    echo -e "\n2018" >> index.md
+    echo -e "----\n" >> index.md
 fi
 
 echo -e "-   \[$brief_date\] [$blog_title]($blog_page)" >> index.md

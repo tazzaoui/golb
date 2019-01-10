@@ -24,7 +24,7 @@ clean:
 \trm -f index.md html/*
 " > Makefile
 
-# Generate the rulke to make all docs
+# Generate the rule to make all docs
 echo -n "docs: " >> Makefile
 for line in $(tac index.txt); 
 do

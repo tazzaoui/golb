@@ -59,5 +59,5 @@ so that I can log in securely from outside of my home network.
 # Status and Future Works
 I still haven't decided what do with the rest of the drives. I currently use one of
 them to backup my machine, and keep another one mounted via sshfs for keeping things 
-I want to be able to access locally on my home network. So far, this setup works
-quite well, but I'm always open to opportunities for increasing efficiency.  
+I want to be able to access locally on my home network. So far, this setup works 
+quite well, but I'm always open to opportunities for increasing efficiency.
