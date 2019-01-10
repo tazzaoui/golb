@@ -4,6 +4,8 @@ Date: Fri Dec 29 19:00:00 EST 2017
 Title: Plato and Justice as Human Excellence
 ---
 
+![](images/plato-sunglasses.jpg)
+
 # Introduction
 
 In book I of his *Republic* Plato writes of a discussion between Socrates and Polemarchus which eventually concludes with the idea that "men who are harmed necessarily become more unjust" (335d).

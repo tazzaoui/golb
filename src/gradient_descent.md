@@ -4,13 +4,17 @@ Date: Dec 20, 2017
 Title: Gradient Descent 
 ---
 
+![](images/gd_meme.jpg)
+
 ### Note
+
 The following is not meant to be a [rigorous
 proof](http://www.stat.cmu.edu/~ryantibs/convexopt-F13/scribes/lec6.pdf)
 of the ideas behind Gradient Descent. Rather it\'s aim is to use
 fundamental ideas in Calculus to provide an intuitive understanding of
 what the algorithm claims, and why it makes the assumptions that it
 does.
+
 
 ### Introduction
 

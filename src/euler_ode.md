@@ -4,7 +4,15 @@ Date: Feb 16, 2018
 Title: Euler's Method 
 ---
 
-### Introduction
+###  "Euler's Method? But That's Ancient!" 
+
+I recently saw the movie *Hidden Figures* in which there was a scene where a group of mathematicians are trying to calculate the trajectory of a capsule. 
+As the group is stuck brainstorming, Katherine Johnson heroically exclaims that their problem can be solved using Euler's method. 
+The scene can be seen [here](https://www.youtube.com/watch?v=v-pbGAts_Fg). 
+Now, the scene is obviously yet another example of Hollywood dramatizing mathematics, as it's hard to believe that an elite group of mathematicians employed by NASA
+would have overlooked a solution as trivial as Euler's method. In any event, this post seeks to outline the method in all of its simplicity.
+
+### Introduction 
 
 In any introductory course on the theory of ordinary differential
 equations, a significant amount of time is dedicated to the study of a
