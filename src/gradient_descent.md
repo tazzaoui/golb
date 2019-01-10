@@ -20,8 +20,8 @@ does.
 
 The goal of optimization problems can be simple to state, yet sometimes
 nontrivial to achieve. Given a cost function \$f : A \\rightarrow R\$,
-we generally seek some value \$x\^{\*} \\epsilon A\$ which satisfies the
-constraint \$f(x\^\*) \\leq f(x)\$ \$\\forall\_{x \\epsilon A}\$. Note
+we generally seek some value \$x\^{\*} \\in A\$ which satisfies the
+constraint \$f(x\^\*) \\leq f(x)\$ \$\\forall\_{x \\in A}\$. Note
 that we limit the conversation to cost functions which are strictly
 convex in order to defer the problem of local minima.
 
@@ -50,7 +50,7 @@ some scalar multiple \$\\alpha\$, along \$-\\nabla F(\\vec{v})\$.
 
 Recall that in two-dimensional Euclidean space, the optimization of a
 differentiable function \$f(x)\$ results in the search space:
-\$\\{\\alpha \\epsilon \\mathbb{R} : \\frac{df}{dx}\|\_{\\alpha} =
+\$\\{\\alpha \\in \\mathbb{R} : \\frac{df}{dx}\|\_{\\alpha} =
 0\\}\$. Where we define the derivative of a function as
 \$\$\\frac{df}{dx} = \\lim\_{\\Delta x\\to\\infty} \\frac{f(x + \\Delta
 x) - f(x)}{\\Delta x}\$\$ This definition works well in two dimensions,
@@ -68,15 +68,15 @@ which to approach a value in multi-dimensional space.
 As such, the concept of a \"derivative\" becomes much less strictly
 defined. We can specify a direction and define the **directional
 derivative** of a function \$g : A \\rightarrow \\mathbb{R}\^{n}\$ in
-the direction of some unit vector \$\\vec{v} \\epsilon A\$ as the value
+the direction of some unit vector \$\\vec{v} \\in A\$ as the value
 \$\\nabla\_{\\vec{v}} g = \\nabla g \\cdot \\vec{v}\$. Intuitively, the
 directional derivative determines the rate of change of \$g\$ along the
 direction of \$\\vec{v}.\$ Now we can rephrase our initial question.
 *\"Which direction points the most downwards?\"* translates to *\"For
 what value of \$\\vec{v}\$ is the directional derivative minimized?\"*
-In other words, we seek a vector \$\\vec{v} \\epsilon A\$ that satisfies
+In other words, we seek a vector \$\\vec{v} \\in A\$ that satisfies
 the constraint \$\\nabla\_{\\vec{v}} g \\leq \\nabla\_{\\vec{x}} g\$
-\$\\forall\_{\\vec{x} \\epsilon A}.\$
+\$\\forall\_{\\vec{x} \\in A}.\$
 
 By the definitions of the directional derivative and the dot product, we
 have: \$\$\\nabla\_{\\vec{v}} g = \\nabla g \\cdot \\vec{v} = \|\\nabla
