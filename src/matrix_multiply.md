@@ -79,5 +79,7 @@ languages, most notably Fortran, arrange matrices in column-major order.
 As a general principle, memory should be accessed sequentially when
 possible in order to make good use of the cache.
 
-The source code for the two implementations can be found here:
-[matrix-multiply.c](https://tahaazzaoui.com/uploads/matrix-multiply.c)
+### Source Code
+
+
+<script src="https://gist.github.com/tazzaoui/21ada759bab32a4c45463126da5d2ca4.js"></script>

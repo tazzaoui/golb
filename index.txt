@@ -1,9 +1,10 @@
+gradient_descent.md
 binary_bomb_0.md
 binary_bomb_1.md
 binary_bomb_2.md
 binary_bomb_3.md
 binary_bomb_4.md
-gradient_descent.md
+plato_and_justice_as_human_excellence.md
 euler_ode.md
 runga_kutta.md
 integral_roots.md
