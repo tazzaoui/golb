@@ -98,7 +98,7 @@ each list to a file under the base16 encoding of the token.
 ### Remarks
 
 The indexer\'s source code can be found
-[here](https://github.com/tazzaoui/search/tree/master/indexer). Our next
+[here](https://github.com/tazzaoui/indexer). Our next
 course of action is to begin ranking the results of a search. This step
 is much less straight forward than crawling and indexing but it is far
 more important.
