@@ -5,26 +5,23 @@
   <link href="../utils/style.css" rel="stylesheet" type="text/css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width"/>
-  <script src="../utils/obfuscate.js">
-  </script>
   <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
       });
   </script>
-  <script type="text/javascript" async src=
-  "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
 <body>
-  <div style="float: right">
-    <a href="https://tahaazzaoui.com">Home</a> :: <a href="https://tahaazzaoui.com/blog">Blog</a> :: <a href=
-    "https://git.tahaazzaoui.com">Git</a> :: 
-    <script language="JavaScript">
-
-    obfuscate("Email")
-    </script>
-  </div><br>
+   <div class="float-right">
+    <a href="https://tahaazzaoui.com">Home</a> :: 
+    <a href="https://tahaazzaoui.com/blog">Blog</a> :: 
+    <a href="https://git.tahaazzaoui.com">Git</a> :: 
+    <a href="mailto:&#116;&#097;&#104;&#097;&#064;&#116;&#097;&#104;&#097;&#097;&#122;&#122;&#097;&#111;&#117;&#105;&#046;&#099;&#111;&#109;">Email</a> ::
+    <a href="https://tahaazzaoui.com/rss.xml">RSS</a> :: 
+    <a href="https://tahaazzaoui.com/files">Files</a> 
+  </div>
+  <br>
   <br>
   <article>
     <div>
