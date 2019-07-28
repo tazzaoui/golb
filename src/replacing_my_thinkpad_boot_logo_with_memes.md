@@ -6,7 +6,7 @@ categories:
     - linux
 ---
 
-![](images/thiccpad_boot_logo.jpg)
+![](/images/thiccpad_boot_logo.jpg)
 
 # Introduction
 
