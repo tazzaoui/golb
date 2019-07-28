@@ -1,13 +1,16 @@
 ---
-Author: Taha Azzaoui
-Date: December 24, 2017 
-Title: The Binary Bomb Project: Part 1 
+author: Taha Azzaoui
+date: 2017-12-24
+title: The Binary Bomb Project- Part 1 
+categories:
+    - reverse-engineering
+    - assembly
 ---
 
 ### Introduction
 
-Now that we\'ve set up our work space, and gotten acquainted with our
-toolbox, it\'s time to embark on our journey.
+Now that we've set up our work space, and gotten acquainted with our
+toolbox, it's time to embark on our journey.
 
 We begin by turning to objdump to disassemble our binary into its
 original assembly. Note that the command `objdump -d ./bomb > ouput.txt`
@@ -17,7 +20,7 @@ will place the resulting assembly into a file by the name of
 Using the symbols as a guide, our initial analysis leads us to the
 function `phase_1`.
 
-![](images/binary1_1.png){.articleImage}
+![](/images/binary1_1.png)
 
 ### The Solution 
 
@@ -35,13 +38,13 @@ the break-point, we can execute the command `disas` to view the
 instruction next up for execution. Note that the memory address of
 interest is at `+6`. We view the string at this location as follows.
 
-![](images/binary1_2.png){.articleImage}
+![](/images/binary1_2.png)
 
 Et voila! The string is right there in plain sight. Phase one is now
-complete. Let\'s move on to phase two, where things start to become
+complete. Let's move on to phase two, where things start to become
 nontrivial.
 
 [Sidenote: the string we found is a quote attributed to former
 Vice-President Dan Quayle](http://www.phrases.org.uk/meanings/397100.html)
 
-[Click here for Phase II](https://tahaazzaoui.com/blog/binary_bomb_2.html)
+[Click here for Phase II](https://azzaoui.org/blog/binary_bomb_2.html)

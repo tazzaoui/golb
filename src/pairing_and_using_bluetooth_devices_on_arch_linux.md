@@ -1,7 +1,9 @@
 ---
-Author: Taha Azzaoui
-Date: Tue Oct 30 23:32:15 EDT 2018
-Title: Paring and Using Bluetooth Devices on Arch Linux
+author: Taha Azzaoui
+date: 2018-10-30
+title: Paring and Using Bluetooth Devices on Arch Linux
+categories:
+    - linux
 ---
 
 # Intro
@@ -59,8 +61,8 @@ Bluetooth dongle, you can manually load the driver as follows:
    Now we'll scan for a device. Be sure to put your Bluetooth device in pairing mode.
    
    > ``[bluetooth]# scan on``
-    
-    Output: ``[NEW] Device 00:18:09:9B:A1:DD MDR-XB650BT``
+   
+   > Output: [NEW] Device 00:18:09:9B:A1:DD MDR-XB650BT
    
    Now copy the MAC Address of the device and pair with it as follows
    
@@ -84,17 +86,13 @@ simply switch to A2DP instead as follows
 
 List the audio cards on your system
 
-> ``pacmd list-cards``
+> pacmd list-cards
 
 Make note of the card number of your Bluetooth device and substitute it in the
 command below to make the switch
 
-> ``pacmd set-card-profile <card #> a2dpsink
+> pacmd set-card-profile <card #> a2dpsink
 
 Finally, make sure the device is recognized
 
-> ``pacmd set-sink-volume 0 0``
-
-
-
-
+> pacmd set-sink-volume 0 0

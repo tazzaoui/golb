@@ -1,7 +1,10 @@
 ---
-Author: Taha Azzaoui
-Date: Mon Oct 29 10:43:45 EDT 2018
-Title: The cloud is just someone else's computer
+author: Taha Azzaoui
+date: 2018-10-29
+title: The cloud is just someone else's computer
+categories:
+    - web
+    - privacy
 ---
 
 # Intro 

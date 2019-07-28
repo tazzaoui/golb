@@ -1,7 +1,9 @@
 ---
-Author: Taha Azzaoui
-Date: Thu Dec 27 13:46:38 EST 2018
-Title: Gentoo Install Notes
+author: Taha Azzaoui
+date: 2018-12-27
+title: Gentoo Install Notes
+categories:
+    - linux
 ---
 
 My notes on installing Gentoo with disk encryption using LUKS

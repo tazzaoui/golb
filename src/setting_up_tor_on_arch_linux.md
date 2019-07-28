@@ -1,7 +1,10 @@
 ---
-Author: Taha Azzaoui
-Date: Mon Oct 29 17:07:42 EDT 2018
-Title: Setting Up Tor On Arch Linux
+author: Taha Azzaoui
+date: 2018-10-29
+title: Setting Up Tor On Arch Linux
+categories:
+    - privacy
+    - linux
 ---
 
 # Intro
@@ -33,7 +36,7 @@ covers it extensively. Let's look at setting it up on Arch.
    the bridges with the ones obtained above
 
     > UseBridges 1 <br>
-    > # Substitute the following with the bridges you aquired from step 3 <br>
+    > \# Substitute the following with the bridges you aquired from step 3 <br>
     > bridge obfs4 \<IP\> \<Giberish\> cert=\<More Giberish\> iat-mode=0 <br>
     > bridge obfs4 \<IP\> \<Giberish\> cert=\<More Giberish\> iat-mode=0 <br>
     > bridge obfs4 \<IP\> \<Giberish\> cert=\<More Giberish\> iat-mode=0 <br>

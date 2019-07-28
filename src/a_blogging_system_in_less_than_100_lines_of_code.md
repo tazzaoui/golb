@@ -1,7 +1,9 @@
 ---
-Author: Taha Azzaoui
-Date: Sun Oct 7 20:48:58 EDT 2018
-Title: A Blogging System in less than 100 lines of code 
+author: Taha Azzaoui
+date: 2018-10-07
+title: A Blogging System in less than 100 lines of code 
+categories:
+  - web
 ---
 
 ### Background
@@ -15,7 +17,7 @@ spending more time tinkering with aesthetics than I did on writing the posts the
 The solution I came up with is satisfyingly simple, and plays out as follows. I
 write my posts in Markdown (with vim of course). Markdown is incredibly easy to write in, it's
 clear, concise, and pretty much the closest thing to plain text. It also handles
-math via MathJax ($\frac{1}{ \sigma \sqrt{2 \pi}} e^{-\frac{{\left(\mu - x\right)}^{2}}{2 \, \sigma^{2}}}$). 
+math via MathJax ($\frac{1}{ \sigma \sqrt{2 \pi}} e^{-\frac{{\left(\mu - x\right)}^{2}}{2 \, \sigma^{2}}}$).
 Next, I use a
 handy little utility called `pandoc` to convert the Markdown to HTML. `Pandoc`
 itself is an indispensable tool written in Haskell. It's the Swiss-army knife of Markup

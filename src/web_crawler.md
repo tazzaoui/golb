@@ -1,7 +1,10 @@
 ---
-Author: Taha Azzaoui
-Date: Jul 1, 2018 
-Title: Writing a Web Crawler 
+author: Taha Azzaoui
+date: 2018-07-01
+title: Writing a Web Crawler 
+categories:
+    - web
+    - information-retrieval
 ---
 
 ### The Internet as a Directed Graph
@@ -24,12 +27,12 @@ significant role when it comes to ranking our search results.
 ### The Crawling Algorithm
 
 The crawler starts by obtaining a list of the most popular websites on
-the internet. For this, I used Amazon\'s list of the top 1 million sites
+the internet. For this, I used Amazon's list of the top 1 million sites
 found [here](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip). The
 crawler starts by dividing the list evenly amongst the threads to be
 spawned, at which point each thread loads its portion of the list into
 its own queue. Once the queue has been populated with these initial
-\"seed\" URLs, the crawler enters an infinite loop in which it performs
+"seed" URLs, the crawler enters an infinite loop in which it performs
 the following simple steps:
 
 1.  Pop a URL out of the queue
@@ -49,7 +52,7 @@ the main logic was written in Python with the critical sections of the
 code executed through underlying libraries written in C. Furthermore,
 since much of the execution time is spent waiting on network requests,
 the crawler should be run on multiple threads in an effort to minimize
-the CPU\'s idle time.
+the CPU's idle time.
 
 Aside from dissecting links, the crawler must also be able to keep track
 of its previously visited URLs so as to avoid parsing duplicate

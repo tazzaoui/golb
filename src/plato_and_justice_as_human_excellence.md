@@ -1,10 +1,12 @@
 ---
-Author: Taha Azzaoui
-Date: Fri Dec 29 19:00:00 EST 2017
-Title: Plato and Justice as Human Excellence
+author: Taha Azzaoui
+date: 2017-12-29
+title: Plato and Justice as Human Excellence
+categories:
+    - philosophy 
 ---
 
-![](images/plato-sunglasses.jpg)
+![](/images/plato-sunglasses.jpg)
 
 # Introduction
 
@@ -23,11 +25,11 @@ The next question he asks represents the turning point of the whole argument, it
 
 The dominoes are all lined up, all the necessary propositions are in place. Socrates now flicks the foremost domino and kicks off the chain reaction that is his conclusion:
 
-	1. The soul has an end and a special excellence.
-	2. The end of the soul is life itself.
-	3. Justice is the excellence of the soul and injustice is the defect (lack of excellence) of the soul.
-	4. The soul cannot fulfill its end when deprived of its excellence.
-	5. The just soul will live well and the unjust soul will live unwell.
-	6. Happiness is the condition of living well and unhappiness is the condition of living unwell.
+1. The soul has an end and a special excellence.
+2. The end of the soul is life itself.
+3. Justice is the excellence of the soul and injustice is the defect (lack of excellence) of the soul.
+4. The soul cannot fulfill its end when deprived of its excellence.
+5. The just soul will live well and the unjust soul will live unwell.
+6. Happiness is the condition of living well and unhappiness is the condition of living unwell.
 
 All of which lead to the unavoidable conclusion: justice makes its possessor happy, and injustice is its opposite. That is, the just are happy.

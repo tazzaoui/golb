@@ -1,7 +1,9 @@
 ---
-Author: Taha Azzaoui
-Date: Thu Jan 10 15:29:51 EST 2019
-Title: Replacing my Thinkpad's Boot Logo With Memes
+author: Taha Azzaoui
+date: 2019-01-10
+title: Replacing my Thinkpad's Boot Logo With Memes
+categories:
+    - linux
 ---
 
 ![](images/thiccpad_boot_logo.jpg)
@@ -48,7 +50,7 @@ We can use the following command to find it.
 
 In my case, the block offset is 32. Using this information, we can now mount the image. 
 
-> `$ mount -oloop,offset=$((32 * 512)) x1bios.img /mnt`
+> `\$ mount -oloop,offset=$((32 * 512)) x1bios.img /mnt`
 
 Now that it's mounted, move the custom logo into the *Flash* directory. Make
 sure the file name is LOGO.

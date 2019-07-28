@@ -1,20 +1,23 @@
 ---
-Author: Taha Azzaoui
-Date: Wed Dec 20 00:00:00 EST 2017
-Title: The Binary Bomb Project: Part 0 
+author: Taha Azzaoui
+date: 2017-12-20
+title: The Binary Bomb Project- Part 0 
+categories:
+    - reverse-engineering
+    - assembly
 ---
 
 First, a quick note to the NSA agent reading this web-page after it has
-been flagged by a web crawler: the phrase \"The Binary Bomb Project\"
+been flagged by a web crawler: the phrase "The Binary Bomb Project"
 explicitly refers to the innocent programming exercise described below
-and nothing else. Great, now that that\'s out of the way, let\'s get
+and nothing else. Great, now that that's out of the way, let's get
 started
 
 ### Introduction
 
 The art of reverse engineering is a useful one indeed, applicable to the
 defense against malicious (proprietary) software, the ability to better
-understand the behavior of one\'s own programs, the ability to identify
+understand the behavior of one's own programs, the ability to identify
 potential optimizations, and much more. In general, a better
 understanding of the underlying behavior of software can lead to
 significant improvements in correctness and performance. For these
@@ -35,9 +38,9 @@ image](https://www.ubuntu.com/download/alternative-downloads) using
 The idea is simple, the bomb is the resulting binary of an intentionally
 obfuscated program originally written in C. It consists of a sequence of
 six phases, each of which expects the input of a specific string via
-`stdin`. If the string is correct, the phase is then \"defused\", at
+`stdin`. If the string is correct, the phase is then "defused", at
 which point we are allowed to move on to the next phase. Otherwise, the
-bomb \"explodes\" by outputting \"BOOM!!!\" to `stdout`. Every time the
+bomb "explodes" by outputting "BOOM!!!" to `stdout`. Every time the
 bomb explodes, we must restart from the initial phase. The goal of
 course, is to get through all 6 phases without an explosion.
 
@@ -57,4 +60,4 @@ in this case.
 2.  [ObjDump](https://ftp.gnu.org/old-gnu/Manuals/binutils-2.12/html_node/binutils_6.html)
 3.  [Strings](https://ftp.gnu.org/old-gnu/Manuals/binutils-2.12/html_node/binutils_9.html#SEC9)
 
-[Click here for Phase I](https://tahaazzaoui.com/blog/binary_bomb_1.html)
+[Click here for Phase I](https://azzaoui.org/blog/binary_bomb_1.html)
