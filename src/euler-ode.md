@@ -63,7 +63,7 @@ $x$ proximal to the point of tangency, the values of $g(x)$ are
 approximately equal to the values of $f(x)$. Stated more formally, let
 $x_0$ be the point of tangency and let $0 < \varepsilon < 1.$
 Then... $$g(x') \approx f(x') \text{ } \forall \text{ } x'
-\in \[x_0 - \varepsilon, x_0 + \varepsilon]$$ Moreover..
+\in [x_0 - \varepsilon, x_0 + \varepsilon]$$ Moreover..
 $$\lim_{\varepsilon\to0} \frac{f(x_0)}{g(x_0 + \epsilon)} =
 1$$ i.e. The smaller the $\varepsilon$, the more accurate the
 approximation
